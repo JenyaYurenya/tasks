@@ -1,4 +1,5 @@
 const a= +prompt("Число");
-v = a * a * a
-sp=6*a*a
-console.log('Объём куба равен: ',v,' Площадь поверхности равна: ',sp)
+let v =  a **3;
+console.log('Объём куба равен: ',v)
+var sp = 6*a**2;
+console.log('Площадь поверхности равна: ',sp)

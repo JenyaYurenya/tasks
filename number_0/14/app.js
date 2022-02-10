@@ -1,6 +1,6 @@
-const n = +prompt ("Введите число:");
-const k = +prompt ("Введите число:");
-x = k / n
-y = k - x * n
-console.log (x)
-console.log (y)
+const n = +prompt("Школьники:");
+const k = +prompt("Мандарины:");
+let x = k/n;
+console.log ('Школьники',x);
+let y = (k - (k / n) *n);
+console.log ('Мандарины',y);

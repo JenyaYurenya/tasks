@@ -1,8 +1,9 @@
 const a= +prompt("Число интересное");
 const b= +prompt("Число интересное");
-c=a+b
-d=a-b
-e=a*b
+let c=a+b
 console.log(a,"+",b,"=",c,sep="")
+let d=a-b
 console.log(a,"-",b,"=",d,sep="")
+let e=a*b
 console.log(a,"*",b,"=",e,sep="")
+
