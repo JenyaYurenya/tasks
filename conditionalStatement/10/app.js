@@ -1,5 +1,5 @@
-let num = prompt('трехзначное число', );
-if  (a= n / 100)
-if  (b= n /10 % 10)
-if  (c= n % 10)
-alert(a + b + c)
+let n = +prompt("трехзначное число");
+let sum=0
+if (n) {
+  console.log(n / 40 +n % 10,n / 50 + n % 10);
+}

@@ -1,10 +1,10 @@
 let accessAllowed;
-let num = prompt('Число', '');
+let num = prompt("Число", "");
 
-if (num >0) {
-  accessAllowed = 'Верно';
+if (num > 0) {
+  accessAllowed = "Верно";
 } else {
-  accessAllowed = 'Не верно';
+  accessAllowed = "Не верно";
 }
 
 alert(accessAllowed);
