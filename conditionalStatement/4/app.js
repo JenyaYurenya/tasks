@@ -1,5 +1,5 @@
 let accessAllowed;
-let num = prompt(" Число", "");
+let num = +prompt(" Число", "");
 
 if (num > 4) {
   accessAllowed = "Верно";

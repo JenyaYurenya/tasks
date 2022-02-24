@@ -1,4 +1,4 @@
-let num = prompt("Число",);
+let num = +prompt("Число",);
 
 let message =
   num < 15

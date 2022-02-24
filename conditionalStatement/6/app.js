@@ -1,5 +1,4 @@
-let accessAllowed;
-let value = prompt("Введите число",);
+let value = +prompt("Введите число",);
 
 if (value > 0) {
   alert("Число больше 0");

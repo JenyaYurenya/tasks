@@ -1,4 +1,4 @@
-let str = prompt("Язык: ");
+let str = +prompt("Язык: ");
 if (str === "en") {
   console.log("англиский")
 } else if (str === "ru") {

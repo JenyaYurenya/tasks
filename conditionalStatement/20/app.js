@@ -1,6 +1,6 @@
-let a = prompt("Введите число: ");
-let b = prompt("Введите число: ");
-let c = prompt("Введите число: ");
+let a = +prompt("Введите число: ");
+let b = +prompt("Введите число: ");
+let c = +prompt("Введите число: ");
 if (c == "+") alert(a + b);
 if (c == "-") alert(a - b);
 if (c == "*") alert(a * b);
